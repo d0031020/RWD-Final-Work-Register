@@ -525,7 +525,7 @@ footer .link img {
 
 main {
     width: 100%;
-    height: 480px;
+    height: 520px;
     color: #5E392D;
     background-color: #EFE9E7;
     padding-top: 50px;
@@ -553,45 +553,65 @@ main h2 {
     font-weight: bold;
 }
 
-main form {
-    width: 30%;
-    height: 320px;
-    margin: 0 auto;
-    box-shadow: 2px 2px 5px gray;
+.register {
+    width: 60%;
+    height: 350px;
+    margin-left: 20%;
+    box-shadow: 1px 1px 3px gray;
+    padding: 15px;
     border-top: 5px solid #F36D31;
-    padding: 0 2%;
-    background-color: #F6F4F3;
 }
 
-main form h2 {
+.register h2 {
     width: 100%;
     text-align: center;
-    font-weight: 900;
 }
 
-main form input {
-    font-size: 16px;
-    width: 95%;
-}
-
-main form a {
-    font-size: 12px;
-    color: #F36D31;
-}
-
-main form button {
-    margin-top: 35px;
+.register .term {
+    width: 50%;
     float: left;
-    width: 47%;
+    margin-right: 20px;
 }
 
-#login {
+.register .term h2 {
+    text-align: left;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.register .term p {
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+
+.register form {
+    width: 44%;
+    float: left;
+}
+
+.register form fieldset {
+    padding: 0;
+}
+
+.register form input {
+    width: 100%;
+    font-size: 16px;
+}
+
+.register form a {
+    font-size: 14px;
+    color: #F36D31;
+    font-weight: 300;
+}
+
+.register form a:hover {
+    border-bottom: 1px solid #F36D31;
+}
+
+.register form button {
+    margin-top: 25px;
     background-color: #F36D31;
-    margin-left: 6%;
-    border-radius: 3px;
-}
-
-#new {
-    background-color: #9B9796;
+    float: right;
+    width: 50%;
     border-radius: 3px;
 }
